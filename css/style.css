@@ -63,20 +63,22 @@ section{
 }
 
 .rect_02{
-    width: 200px;
+    width: 20%;
     height: 550px;
-    float: right; 
+    float: left; 
+    margin-right: 1%;
 }
 
 .rect_03{
-    width: 200px;
+    width: 58%;
     height: 550px;
     float: left; 
+    margin-right: 1%;
+    background-color: #fff;
 }
 
 .rect_04{
-    width: 1056px;
+    width: 20%;
     height: 550px;
-    margin: 0 auto;
-    background-color: #fff;
+    float: left; 
 }
