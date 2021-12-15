@@ -6,9 +6,52 @@
 
 html{
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
+body{
+    max-width: calc(100% - 400px);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+header{
+    height: 150px;
+    margin: 20px auto 20px;
+}
+
+footer{
+    height: 100px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
 /* debug */
 .debug{
-    
+    background-color: grey;
+}
+
+.debug_content{
+    background-color: cornflowerblue;
+}
+
+.debug.content_01{
+    height: 400px;
+    margin: 20px auto 20px;
+}
+
+.debug.content_02{
+    background-color: darkcyan;
+    height: 500px;
+    margin: 20px auto 10px auto;
+    position: relative;
+}
+
+.rect_01{
+    height: 75px;
 }
