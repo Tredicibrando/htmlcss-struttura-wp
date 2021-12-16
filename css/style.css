@@ -1,3 +1,4 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
@@ -5,29 +6,14 @@
 }
 
 html{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
 
+/* CLASSI */
 .container{
-    max-width: calc(100% - 400px);
+    width: 1024px;
     margin: 10px auto 10px auto;
-
-}
-
-
-header{
-    height: 150px;
-    margin-top: 10px;
-
-}
-
-footer{
-    height: 100px;
-}
-
-section{
-    margin: 20px auto 10px auto;
 }
 
 .clearfix::after{
@@ -39,7 +25,33 @@ section{
 .colonne{
     padding: 12px;
 }
-/* debug */
+
+.container nav ul li{
+    list-style: none;
+    float: left;
+}
+.container nav ul li a{
+    text-decoration: none;
+}
+
+/* TAG */
+footer{
+    height: 100px;
+}
+
+section{
+    margin: 20px auto 10px auto;
+}
+
+
+/* ID */
+#logo{
+    height: 50px;
+    float: left;
+    border-right: 0.2px solid grey;
+}
+
+/* DEBUG */
 .debug{
     background-color: grey;
 }
